@@ -1,0 +1,115 @@
+// 320px +
+@media screen and (min-width: 320px) {
+.our-work {
+    display: none;
+}
+}
+
+// 480px +
+@media screen and (min-width: 480px) {
+.our-work {
+    display: none;
+}
+}
+
+// 768px +
+@media screen and (min-width: 768px) {
+.our-work {
+    display: none;
+}
+}
+
+// 1200px +
+@media screen and (min-width: 1200px) {
+    .our-work {
+    display: flex;
+    padding-bottom: 94px;
+}
+
+.work {
+    flex-basis: calc((100% - 3 * 30px) / 3);
+    width: 370px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.description-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.product-thumb {
+    position: relative;
+}
+
+.our-work-name {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
+}
+
+
+// .our-work {
+//     padding-bottom: 94px;
+// }
+
+// .work {
+//     flex-basis: calc((100% - 3 * 30px) / 3);
+
+//     &:not(:last-child) {
+//         margin-right: 30px;
+//     }
+// }
+
+// .description-title {
+//     margin-bottom: 50px;
+//     font-weight: 700;
+//     font-size: 36px;
+//     line-height: 1.17;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+// }
+
+// .product-thumb {
+//     position: relative;
+// }
+
+// .our-work-name {
+//     position: absolute;
+//     width: 100%;
+//     height: 70px;
+//     bottom: 0;
+//     left: 0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     color: var(--primary-background-color);
+//     background-color: rgba(47, 48, 58, 0.8);
+// }
+
